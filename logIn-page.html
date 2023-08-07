@@ -30,28 +30,31 @@
 
       <div class="enter-social-medias">
         <p>Entre com suas redes sociais</p>
-        <a href="#"><img src="#" alt="">Google</a>
-        <a href="#"><img src="#" alt="">Facebook</a>
-        <a href="#"><img src="#" alt="">Apple</a>
+        <a href="#"><img src="icons/google.png" alt="google-icon" class="social-media-icons"></a>
+        <a href="#"><img src="icons/facebook.png" alt="facebook-icon" class="social-media-icons"></a>
+        <a href="#"><img src="icons/apple.png" alt="" class="social-media-icons apple-icon"></a>
       </div>
 
 
       <div class="user-password-div">
         
         <label for="name"> 
-          <input type="text" name="user" id="user-login" placeholder="Usuário">
+          <input type="text" name="user" id="user-login" placeholder="Usuário" required>
         </label>
 
         <label for="password"> 
-          <input type="password" name="password" id="user-pass" placeholder="Senha">
+          <input type="password" name="password" id="user-pass" placeholder="Senha" required>
         </label>
         
         <button class="login-btn ">Entrar</button>
         
-        <label for="remember-me" class="remember-me-divBox">
-          <input type="checkbox" name="remember-me" id="remember-me-input">
-          <p class="p-remember">Lembrar credenciais</p>
-        </label>
+        <div class="remember-div">
+          <label for="remember-me" class="label-remember-me">
+            <input type="checkbox" name="remember-me" id="remember-me-input">
+            <span class="remember-checkmark"></span>
+            <p class="p-remember">Lembrar credenciais</p>
+          </label>
+        </div>
 
         <a href="#" class="forgot-pass"><p class="p-forgot-pass">Esqueceu sua senha?</p></a>
       </div>
@@ -64,9 +67,7 @@
           <input type="checkbox" name="privacy-terms" id="privacy-terms-input">
           <span class="checkmark"></span>
          
-          
         </label>
-          
       </div>
       </form>
     
